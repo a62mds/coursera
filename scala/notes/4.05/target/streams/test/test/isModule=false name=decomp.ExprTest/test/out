@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mExprTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.eval returns n when Expr is Number(n)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.show returns 'n' when Expr is Number(n)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.eval returns n+m when Expr is Sum(Number(n),Number(m))[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.show returns 'n+m' when Expr is Sum(Number(n),Number(m))[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.eval returns n-m when Expr is Diff(Number(n),Number(m))[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.show returns 'n-m' when Expr is Diff(Number(n),Number(m))[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.eval returns n*m when Expr is Prod(Number(n),Number(m))[0m[0m
+[0m[[0minfo[0m] [0m[32m- Expr.show returns 'n*m' when Expr is Prod(Number(n),Number(m))[0m[0m
